@@ -1,0 +1,15 @@
+C:\CS\Pos\Pos\bin\Debug\Pos.exe.config
+C:\CS\Pos\Pos\bin\Debug\Pos.exe
+C:\CS\Pos\Pos\bin\Debug\Pos.pdb
+C:\CS\Pos\Pos\obj\Debug\Pos.csprojResolveAssemblyReference.cache
+C:\CS\Pos\Pos\obj\Debug\Pos.Form1.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.Properties.Resources.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.csproj.GenerateResource.Cache
+C:\CS\Pos\Pos\obj\Debug\Pos.csproj.CoreCompileInputs.cache
+C:\CS\Pos\Pos\obj\Debug\Pos.exe
+C:\CS\Pos\Pos\obj\Debug\Pos.pdb
+C:\CS\Pos\Pos\obj\Debug\Pos.frmsold.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmbarcodecheck.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmstockmanagement.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmsoldpresent.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmemp.resources
