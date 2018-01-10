@@ -129,5 +129,10 @@ namespace Pos
         {
             new frmempcheck().Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            new frmpayupdate().Show();
+        }
     }
 }

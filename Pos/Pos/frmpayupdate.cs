@@ -9,18 +9,16 @@ using System.Windows.Forms;
 
 namespace Pos
 {
-    public partial class frmlogin : Form
+    public partial class frmpayupdate : Form
     {
-        public frmlogin()
+        public frmpayupdate()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new Form1().ShowDialog();
-            this.Close();
+            this.Dispose();
         }
     }
 }

@@ -46,6 +46,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +56,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button4.Location = new System.Drawing.Point(271, 146);
+            this.button4.Location = new System.Drawing.Point(270, 140);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(254, 82);
             this.button4.TabIndex = 10;
@@ -70,7 +71,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button3.Location = new System.Drawing.Point(168, 506);
+            this.button3.Location = new System.Drawing.Point(167, 524);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(254, 82);
             this.button3.TabIndex = 9;
@@ -85,7 +86,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button2.Location = new System.Drawing.Point(168, 266);
+            this.button2.Location = new System.Drawing.Point(167, 236);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(254, 82);
             this.button2.TabIndex = 8;
@@ -109,7 +110,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button1.Location = new System.Drawing.Point(60, 386);
+            this.button1.Location = new System.Drawing.Point(59, 332);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(254, 82);
             this.button1.TabIndex = 6;
@@ -124,7 +125,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button5.Location = new System.Drawing.Point(271, 626);
+            this.button5.Location = new System.Drawing.Point(270, 620);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(254, 82);
             this.button5.TabIndex = 12;
@@ -256,12 +257,27 @@
             this.pictureBox1.TabIndex = 47;
             this.pictureBox1.TabStop = false;
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(190)))), ((int)(((byte)(50)))));
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
+            this.button9.Location = new System.Drawing.Point(59, 428);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(254, 82);
+            this.button9.TabIndex = 56;
+            this.button9.Text = "수당 수정";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(102)))));
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
@@ -305,6 +321,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }
 
