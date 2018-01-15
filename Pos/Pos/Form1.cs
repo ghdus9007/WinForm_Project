@@ -16,71 +16,21 @@ namespace Pos
         {
             InitializeComponent();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            new frmsold().Show();
+            this.Hide();
+            frmsold fs = new frmsold();
+            fs.label8.Text = label1.Text;
+            fs.ShowDialog();
+            this.Close();
         }
         
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Dispose();
-        }
-
-        //private static System.Drawing.Drawing2D.GraphicsPath ButtonStyle()
-        //{
-        //    System.Drawing.Drawing2D.GraphicsPath myGraphicsPath = new System.Drawing.Drawing2D.GraphicsPath();
-        //    myGraphicsPath.AddEllipse(10, 10, 80, 80);
-        //    return myGraphicsPath;
-        //}
-
-        private void button1_Paint(object sender, PaintEventArgs e)
-        {
-            //System.Drawing.Drawing2D.GraphicsPath myGraphicsPath = ButtonStyle();
-            //button1.Size = new System.Drawing.Size(100, 100);
-            //button1.Region = new Region(myGraphicsPath);
-            System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
-            gp.AddEllipse(button1.DisplayRectangle);
-            button1.Region = new Region(gp);
-        }
-        
-        private void button2_Paint(object sender, PaintEventArgs e)
-        {
-            //System.Drawing.Drawing2D.GraphicsPath myGraphicsPath = ButtonStyle();
-            //button2.Size = new System.Drawing.Size(100, 100);
-            //button2.Region = new Region(myGraphicsPath);
-            System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
-            gp.AddEllipse(button2.DisplayRectangle);
-            button2.Region = new Region(gp);
-        }
-
-        private void button3_Paint(object sender, PaintEventArgs e)
-        {
-            //System.Drawing.Drawing2D.GraphicsPath myGraphicsPath = ButtonStyle();
-            //button3.Size = new System.Drawing.Size(100, 100);
-            //button3.Region = new Region(myGraphicsPath);
-            System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
-            gp.AddEllipse(button3.DisplayRectangle);
-            button3.Region = new Region(gp);
-        }
-
-        private void button4_Paint(object sender, PaintEventArgs e)
-        {
-            //System.Drawing.Drawing2D.GraphicsPath myGraphicsPath = ButtonStyle();
-            //button4.Size = new System.Drawing.Size(100, 100);
-            //button4.Region = new Region(myGraphicsPath);
-            System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
-            gp.AddEllipse(button4.DisplayRectangle);
-            button4.Region = new Region(gp);
-        }
-
-        private void button5_Paint(object sender, PaintEventArgs e)
-        {
-            //System.Drawing.Drawing2D.GraphicsPath myGraphicsPath = ButtonStyle();
-            //button5.Size = new System.Drawing.Size(100, 100);
-            //button5.Region = new Region(myGraphicsPath);
-            System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
-            gp.AddEllipse(button5.DisplayRectangle);
-            button5.Region = new Region(gp);
+            this.Hide();
+            new frmlogin().ShowDialog();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -95,7 +45,9 @@ namespace Pos
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new frmtotsold().Show();
+            frmtotsold ftt = new frmtotsold();
+            ftt.label19.Text = label1.Text;
+            ftt.ShowDialog();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -117,7 +69,9 @@ namespace Pos
 
         private void button12_Click(object sender, EventArgs e)
         {
-            new frmorder().Show();
+            frmorder fo = new frmorder();
+            fo.label10.Text = label1.Text;
+            fo.ShowDialog();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -132,7 +86,16 @@ namespace Pos
 
         private void button9_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             new frmpayupdate().Show();
+=======
+            new frmownercheck().Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new frmmail().Show();
+>>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
         }
     }
 }

@@ -41,17 +41,28 @@ namespace Pos
 
         private void button10_Click(object sender, EventArgs e)
         {
-            new frmtotsold().Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            new frmsupplier().Show();
+            frmtotsold ftt = new frmtotsold();
+            ftt.label19.Text = label10.Text;
+            ftt.ShowDialog();
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             new frmempcheck().Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmordercheck foc = new frmordercheck();
+            foc.label8.Text = label10.Text;
+            foc.ShowDialog();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new frmmail().Show();
         }
     }
 }

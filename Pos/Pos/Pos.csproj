@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,9 +32,11 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
@@ -107,12 +110,36 @@
     <Compile Include="frmorder.Designer.cs">
       <DependentUpon>frmorder.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="frmordercheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmordercheck.Designer.cs">
+      <DependentUpon>frmordercheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmownercheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmownercheck.Designer.cs">
+      <DependentUpon>frmownercheck.cs</DependentUpon>
+    </Compile>
+>>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
     <Compile Include="frmpayupdate.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmpayupdate.Designer.cs">
       <DependentUpon>frmpayupdate.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="frmsale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsale.Designer.cs">
+      <DependentUpon>frmsale.cs</DependentUpon>
+    </Compile>
+>>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
     <Compile Include="frmshipper.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,12 +163,6 @@
     </Compile>
     <Compile Include="frmstockmanagement.Designer.cs">
       <DependentUpon>frmstockmanagement.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmsupplier.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmsupplier.Designer.cs">
-      <DependentUpon>frmsupplier.cs</DependentUpon>
     </Compile>
     <Compile Include="frmtotsold.cs">
       <SubType>Form</SubType>
@@ -181,9 +202,24 @@
     <EmbeddedResource Include="frmorder.resx">
       <DependentUpon>frmorder.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="frmpayupdate.resx">
       <DependentUpon>frmpayupdate.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <EmbeddedResource Include="frmordercheck.resx">
+      <DependentUpon>frmordercheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmownercheck.resx">
+      <DependentUpon>frmownercheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmpayupdate.resx">
+      <DependentUpon>frmpayupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsale.resx">
+      <DependentUpon>frmsale.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
     <EmbeddedResource Include="frmshipper.resx">
       <DependentUpon>frmshipper.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,9 +231,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmstockmanagement.resx">
       <DependentUpon>frmstockmanagement.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmsupplier.resx">
-      <DependentUpon>frmsupplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmtotsold.resx">
       <DependentUpon>frmtotsold.cs</DependentUpon>
