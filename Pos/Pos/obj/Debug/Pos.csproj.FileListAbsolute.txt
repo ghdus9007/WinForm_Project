@@ -18,8 +18,11 @@ C:\CS\Pos\Pos\obj\Debug\Pos.frmoption.resources
 C:\CS\Pos\Pos\obj\Debug\Pos.frmtotsold.resources
 C:\CS\Pos\Pos\obj\Debug\Pos.frmorder.resources
 C:\CS\Pos\Pos\obj\Debug\Pos.frmshipper.resources
-C:\CS\Pos\Pos\obj\Debug\Pos.frmsupplier.resources
 C:\CS\Pos\Pos\obj\Debug\Pos.frmcardcalc.resources
 C:\CS\Pos\Pos\obj\Debug\Pos.frmmail.resources
 C:\CS\Pos\Pos\obj\Debug\Pos.frmempcheck.resources
 C:\CS\Pos\Pos\obj\Debug\Pos.frmlogin.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmpayupdate.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmordercheck.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmownercheck.resources
+C:\CS\Pos\Pos\obj\Debug\Pos.frmsale.resources

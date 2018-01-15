@@ -69,7 +69,9 @@ namespace Pos
 
         private void button15_Click(object sender, EventArgs e)
         {
-            new frmorder().Show();
+            frmorder fo = new frmorder();
+            fo.label10.Text = label19.Text;
+            fo.ShowDialog();
         }
 
         private void button17_Click(object sender, EventArgs e)
@@ -80,6 +82,11 @@ namespace Pos
         private void button16_Click(object sender, EventArgs e)
         {
             new frmempcheck().Show();
+        }
+
+        private void button17_Click_1(object sender, EventArgs e)
+        {
+            new frmmail().Show();
         }
     }
 }

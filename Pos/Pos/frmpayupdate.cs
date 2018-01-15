@@ -5,14 +5,13 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Pos
 {
-    public partial class frmstockmanagement : Form
+    public partial class frmpayupdate : Form
     {
-        public frmstockmanagement()
+        public frmpayupdate()
         {
             InitializeComponent();
         }
@@ -20,11 +19,6 @@ namespace Pos
         private void button1_Click(object sender, EventArgs e)
         {
             this.Dispose();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            new frmsale().Show();
         }
     }
 }

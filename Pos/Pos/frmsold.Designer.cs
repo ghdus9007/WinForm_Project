@@ -61,11 +61,11 @@
             this.button10 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -445,25 +445,13 @@
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button14.Location = new System.Drawing.Point(790, 12);
+            this.button14.Location = new System.Drawing.Point(896, 12);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(100, 40);
             this.button14.TabIndex = 62;
-            this.button14.Text = "메일? 엑셀?";
+            this.button14.Text = "메일";
             this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(190)))), ((int)(((byte)(50)))));
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button15.Location = new System.Drawing.Point(896, 12);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(100, 40);
-            this.button15.TabIndex = 61;
-            this.button15.Text = "메일? 엑셀?";
-            this.button15.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button13
             // 
@@ -472,7 +460,7 @@
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button13.Location = new System.Drawing.Point(684, 12);
+            this.button13.Location = new System.Drawing.Point(790, 12);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(100, 40);
             this.button13.TabIndex = 63;
@@ -508,15 +496,25 @@
             this.button1.TabIndex = 10;
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("굴림", 13F);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(190)))), ((int)(((byte)(50)))));
+            this.label8.Location = new System.Drawing.Point(468, 73);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(0, 18);
+            this.label8.TabIndex = 65;
+            // 
             // frmsold
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(102)))));
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
@@ -585,7 +583,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
@@ -595,7 +592,8 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label8;
     }
 }

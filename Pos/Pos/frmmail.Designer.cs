@@ -50,7 +50,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(350, 21);
-            this.textBox2.TabIndex = 3;
+            this.textBox2.TabIndex = 2;
             // 
             // textBox1
             // 
@@ -127,6 +127,7 @@
             this.button3.TabIndex = 10;
             this.button3.Text = "보내기";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox1
             // 
@@ -149,6 +150,7 @@
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "메일 보내기";
+            this.groupBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupBox1_Paint);
             // 
             // textBox6
             // 
@@ -157,7 +159,7 @@
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(350, 21);
-            this.textBox6.TabIndex = 10;
+            this.textBox6.TabIndex = 3;
             // 
             // textBox7
             // 
@@ -194,7 +196,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmmail";
             this.Text = "새 메일";
-            this.Load += new System.EventHandler(this.frmmail_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

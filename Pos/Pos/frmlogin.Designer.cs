@@ -66,7 +66,7 @@
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(437, 69);
-            this.textBox3.TabIndex = 2;
+            this.textBox3.TabIndex = 0;
             // 
             // textBox4
             // 
@@ -74,17 +74,20 @@
             this.textBox4.Location = new System.Drawing.Point(401, 333);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '*';
             this.textBox4.Size = new System.Drawing.Size(437, 69);
-            this.textBox4.TabIndex = 3;
+            this.textBox4.TabIndex = 1;
+            this.textBox4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyUp);
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(876, 597);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 120);
-            this.button1.TabIndex = 4;
+            this.button1.TabIndex = 2;
             this.button1.Text = "확인";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmlogin
             // 

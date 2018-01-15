@@ -43,9 +43,10 @@
             this.button11 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,14 +56,13 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button4.Location = new System.Drawing.Point(271, 146);
+            this.button4.Location = new System.Drawing.Point(270, 140);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(254, 82);
             this.button4.TabIndex = 10;
             this.button4.Text = "직원관리";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            this.button4.Paint += new System.Windows.Forms.PaintEventHandler(this.button4_Paint);
             // 
             // button3
             // 
@@ -70,14 +70,13 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button3.Location = new System.Drawing.Point(168, 506);
+            this.button3.Location = new System.Drawing.Point(167, 524);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(254, 82);
             this.button3.TabIndex = 9;
             this.button3.Text = "환경설정";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            this.button3.Paint += new System.Windows.Forms.PaintEventHandler(this.button3_Paint);
             // 
             // button2
             // 
@@ -85,14 +84,13 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button2.Location = new System.Drawing.Point(168, 266);
+            this.button2.Location = new System.Drawing.Point(167, 236);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(254, 82);
             this.button2.TabIndex = 8;
             this.button2.Text = "전체 매출현황";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            this.button2.Paint += new System.Windows.Forms.PaintEventHandler(this.button2_Paint);
             // 
             // textBox1
             // 
@@ -109,14 +107,13 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button1.Location = new System.Drawing.Point(60, 386);
+            this.button1.Location = new System.Drawing.Point(59, 332);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(254, 82);
             this.button1.TabIndex = 6;
             this.button1.Text = "판매";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.Paint += new System.Windows.Forms.PaintEventHandler(this.button1_Paint);
             // 
             // button5
             // 
@@ -124,14 +121,13 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button5.Location = new System.Drawing.Point(271, 626);
+            this.button5.Location = new System.Drawing.Point(270, 620);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(254, 82);
             this.button5.TabIndex = 12;
             this.button5.Text = "Pos종료";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            this.button5.Paint += new System.Windows.Forms.PaintEventHandler(this.button5_Paint);
             // 
             // label6
             // 
@@ -213,25 +209,13 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button6.Location = new System.Drawing.Point(790, 12);
+            this.button6.Location = new System.Drawing.Point(896, 12);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 40);
             this.button6.TabIndex = 54;
-            this.button6.Text = "메일? 엑셀파일?";
+            this.button6.Text = "메일";
             this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(190)))), ((int)(((byte)(50)))));
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button7.Location = new System.Drawing.Point(896, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(100, 40);
-            this.button7.TabIndex = 53;
-            this.button7.Text = "메일? 엑셀파일?";
-            this.button7.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button8
             // 
@@ -240,7 +224,7 @@
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
-            this.button8.Location = new System.Drawing.Point(684, 64);
+            this.button8.Location = new System.Drawing.Point(790, 12);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(100, 40);
             this.button8.TabIndex = 55;
@@ -256,15 +240,40 @@
             this.pictureBox1.TabIndex = 47;
             this.pictureBox1.TabStop = false;
             // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(190)))), ((int)(((byte)(50)))));
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(46)))));
+            this.button9.Location = new System.Drawing.Point(59, 428);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(254, 82);
+            this.button9.TabIndex = 56;
+            this.button9.Text = "수당 수정";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("굴림", 13F);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(190)))), ((int)(((byte)(50)))));
+            this.label1.Location = new System.Drawing.Point(468, 73);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 18);
+            this.label1.TabIndex = 57;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(102)))));
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
@@ -303,8 +312,9 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        public System.Windows.Forms.Label label1;
     }
 }
 
