@@ -23,11 +23,6 @@ namespace Pos
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            this.Hide();
-            new Form1().ShowDialog();
-            this.Close();
-=======
             if(textBox3.Text != "" && textBox4.Text != "")
             {
                 using (var con = new SqlConnection(ConfigurationManager.ConnectionStrings["pos"].ConnectionString))
@@ -85,7 +80,6 @@ namespace Pos
             {
                 button1_Click(null, null);
             }
->>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
         }
     }
 }

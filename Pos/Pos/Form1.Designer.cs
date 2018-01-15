@@ -46,10 +46,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button9 = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-=======
             this.label1 = new System.Windows.Forms.Label();
->>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -257,8 +254,6 @@
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-<<<<<<< HEAD
-=======
             // label1
             // 
             this.label1.AutoSize = true;
@@ -269,17 +264,13 @@
             this.label1.Size = new System.Drawing.Size(0, 18);
             this.label1.TabIndex = 57;
             // 
->>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(78)))), ((int)(((byte)(102)))));
             this.ClientSize = new System.Drawing.Size(1008, 729);
-<<<<<<< HEAD
-=======
             this.Controls.Add(this.label1);
->>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button6);
@@ -323,10 +314,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-<<<<<<< HEAD
-=======
         public System.Windows.Forms.Label label1;
->>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
     }
 }
 

@@ -86,16 +86,12 @@ namespace Pos
 
         private void button9_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            new frmpayupdate().Show();
-=======
             new frmownercheck().Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             new frmmail().Show();
->>>>>>> 5b09e592626262352de4ccd24febeebc9c38fdf9
         }
     }
 }
